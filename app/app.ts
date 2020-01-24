@@ -46,5 +46,3 @@ class EmployeeCtrl implements IEmployee{
  
 angular.module('myApp')
     .controller("EmployeeCtrl",EmployeeCtrl); 
-
-    console.log('aa')

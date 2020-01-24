@@ -27,4 +27,3 @@ var EmployeeCtrl = /** @class */ (function () {
 }());
 angular.module('myApp')
     .controller("EmployeeCtrl", EmployeeCtrl);
-console.log('aa');
