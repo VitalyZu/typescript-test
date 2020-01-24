@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myApp'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-route/angular-route.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div ng-controller='EmployeeCtrl as my'>
+        <h1>{{my.header}}</h1>
+        <table>
+            <thead>
+                <tr>
+                    <td>EmpNo</td>
+                    <td>EmpName</td>
+                    <td>Salary</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="Emp in my.Employees">
+                    <td>{{Emp.EmpNo}}</td>
+                    <td>{{Emp.EmpName}}</td>
+                    <td>{{Emp.Salary}}</td>
+                </tr>
+            </tbody>
+        </table>
+        {{greet}}
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+http://definitelytyped.org/docs/angularjs--angular/modules/ng.html <-------------------------------------
+https://medium.com/@ylerjen/migrating-angularjs-application-to-typescript-5230eb8c46e1
+https://www.dotnetcurry.com/angularjs/1303/using-typescript-angularjs-modules-controllers
+https://brianflove.com/2016/12/26/typing-up-your-angular-1-app/
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+npm install --save-dev @types/node
+tsc -init
